@@ -238,7 +238,7 @@ main .container img {
 }
 
 .footer-section {
-  overflow: none;
+  margin-top: -1px;
   background-color: hsl(192, 100%, 9%);
   color: white;
   padding: 100px 0px;
