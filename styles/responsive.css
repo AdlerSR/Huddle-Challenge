@@ -8,16 +8,206 @@
   .container{
     max-width: 1024px;
   }
+
+  .grow-content .container div p {
+    max-width: 400px;
+  }
+
+  .grow-content .container div img {
+    width: 400px;
+  }
+
+  .conversation-section .container div p {
+    max-width: 400px;
+  }
+
+  .conversation-section .container div img {
+    width: 400px;
+  }
+
+  .users-content .container div p {
+    max-width: 430px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .users-content .container div img {
+    width: 400px;
+  }
 }
 
 @media (min-width: 768px) and  (max-width: 1023px){
   .container{
     max-width: 768px;
   }
+
+  main .container h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  main .container img {
+    width: 500px;
+  }
+
+  main .container .info-card img {
+    width: 40px;
+  }
+
+  .grow-content .container div p {
+    max-width: 400px;
+  }
+
+  .grow-content .container div img {
+    width: 300px;
+  }
+
+  .conversation-section .container div p {
+    max-width: 400px;
+  }
+
+  .conversation-section .container div img {
+    width: 300px;
+  }
+
+  .users-content .container div p {
+    max-width: 430px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .users-content .container div img {
+    width: 300px;
+  }
 }
 
-@media (min-width: 640px) and  (max-width: 767px){
+@media (max-width: 767px){
   .container{
     max-width: 640px;
+  }
+
+  header .container {
+    padding: 0px 10px;
+  }
+
+  main .container h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  main .container img {
+    width: 300px;
+  }
+
+  main .container .info-card img {
+    width: 40px;
+  }
+
+  .info-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .grow-content .container div p {
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .grow-content .container div h2 {
+    text-align: center;
+  }
+
+  .grow-content .container div img {
+    width: 300px;
+  }
+
+  .conversation-section .container div p {
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .conversation-section .container div h2 {
+    text-align: center;
+  }
+
+  .conversation-section .container div img {
+    width: 300px;
+  }
+
+  .users-content .container div h2 {
+    text-align: center;
+  }
+
+  .users-content .container div p {
+    max-width: 430px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .users-content .container div img {
+    width: 300px;
+  }
+
+  .conversation-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .conversation-section .container div + div{
+    margin-top: 50px;
+  }
+
+  .grow-section .grow-content .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .grow-section .grow-content .container div + div {
+    margin-top: 50px;
+  }
+
+  .users-section .users-content .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .users-section .users-content .container div + div {
+    margin-top: 50px;
+  }
+  
+  .getStarted-section {
+    padding: 200px 0px 200px 0px;
+  }
+
+  .footer-section .container {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-section .container div .icons-group {
+    margin-bottom: 30px;
+  }
+
+  .getStarted-section .container h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  footer {
+    padding: 0px 10px;
+    text-align: center;
   }
 }
